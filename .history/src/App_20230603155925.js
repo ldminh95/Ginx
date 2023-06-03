@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Product_title from './title/Product_title.js';
 import Product_image from './product/Product_image.js';
-import Product_info from './product/Product_info.js';
+import Product_info from './product/Product_info.js'
 import nutrition from './images/sp1.jpg';
 import Oxywhey from './images/sp2.jpg';
 import NutritionBCAA from './images/sp3.jpg';

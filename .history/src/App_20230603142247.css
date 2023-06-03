@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+.App {
+  width: 1290px;
+  height: 100vh;
+  padding: 0 10px;
+  margin: 0 auto;
+}

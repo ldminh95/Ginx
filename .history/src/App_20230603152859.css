@@ -3,11 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;	
 }
+}
+body {
+	
 img {
 	max-width: 100%;
-	object-fit: contain;
-	height: 100%;
-	width: 100%;
 }
 .App {
 	width: 1290px;
@@ -20,7 +20,6 @@ img {
 	font-size: 12px;
 	line-height: 1.2;
 	margin-top: 20px;
-	margin-bottom: 20px;
 }
 .App .Product_title h2 {
 	font-weight: 400;
@@ -36,15 +35,8 @@ img {
 .Container .box {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 .Container .box .box_item {
-	width: calc(25% - 10px);
-	margin-bottom: 30px;
-	border: 1px solid #ddd;
-	border-radius: 10px;
-	overflow: hidden
-}
-.Container .box .box_item .box_image {
-	height: 280px;
+	width: 25%;
+	padding: 0 10px;
 }

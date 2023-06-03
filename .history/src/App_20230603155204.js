@@ -2,11 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import Product_title from './title/Product_title.js';
 import Product_image from './product/Product_image.js';
-import Product_info from './product/Product_info.js';
-import nutrition from './images/sp1.jpg';
-import Oxywhey from './images/sp2.jpg';
-import NutritionBCAA from './images/sp3.jpg';
-import Muscle from './images/sp4.jpg';
+import nutrition from '../images/sp1.jpg';
+import Oxywhey from '../images/sp2.jpg';
+import NutritionBCAA from '../images/sp3.jpg';
+import Muscle from '../images/sp4.jpg';
 
 
 function App() {
@@ -37,7 +36,7 @@ function App() {
 			/>
 			<div className='box_info'>
 				<div className='box_caption'>
-					
+
 				</div>
 				<div className='box_title'>
 
@@ -65,7 +64,7 @@ function App() {
           </div>
 		  <div className='box_item'>
             <Product_image
-				product = {{link: Muscle, name: "12 NZ Muscle Whey Protein 1Kg Bag-Gingerbread Milk"}}
+				product = {{link: Muscle, name: "16 Optimum Nutrition Gold Standard Pre Advanced"}}
 			/>
 			<div className='box_info'>
 				<div className='box_caption'>
@@ -80,9 +79,7 @@ function App() {
 			</div>
           </div>
 		  <div className='box_item'>
-            <Product_image
-				product = {{link: nutrition, name: "12 NZ Muscle Whey Protein 1Kg Bag-Gingerbread Milk"}}
-			/>
+            <Product_image/>
 			<div className='box_info'>
 				<div className='box_caption'>
 

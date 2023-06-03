@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+.App {
+  width: 1290px;
+  height: 100vh;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.App .Product_title {
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+.App .Product_title h2 {
+  font-weight: 400;
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.App .Product_title p {
+  font-weight: 700;
+  color: #000;
+  font-size: 4em;
+}
