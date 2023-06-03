@@ -19,81 +19,61 @@ function App() {
             <Product_image
 				product = {{link: nutrition, name: "16 Optimum Nutrition Gold Standard Pre Advanced"}}
 			/>
-			<div className='box_info'>
-				<div className='box_caption'>
-
-				</div>
-				<div className='box_title'>
-
-				</div>
-				<div className='box_price'>
-					<span></span>
-				</div>
-			</div>
+			<Product_info
+				info = {{
+					caption: "SHAKES & POWDERS",
+					title: "16 Optimum Nutrition Gold Standard Pre Advanced",
+					price: 68.99
+				}}
+			/>
           </div>
 		  <div className='box_item'>
             <Product_image
 				product = {{link: Oxywhey, name: "4 EHP Labs Oxywhey Lean Wellness Protein4 EHP Labs Oxywhey Lean Wellness Protein"}}
 			/>
-			<div className='box_info'>
-				<div className='box_caption'>
-					
-				</div>
-				<div className='box_title'>
-
-				</div>
-				<div className='box_price'>
-					<span></span>
-				</div>
-			</div>
+			<Product_info
+				info = {{
+					caption: "SHAKES & POWDERS",
+					title: "4 EHP Labs Oxywhey Lean Wellness Protein",
+					price: 68.99
+				}}
+			/>
           </div>
 		  <div className='box_item'>
             <Product_image
 				product = {{link: NutritionBCAA, name: "15 Optimum Nutrition Boost BCAA"}}
 			/>
-			<div className='box_info'>
-				<div className='box_caption'>
-
-				</div>
-				<div className='box_title'>
-
-				</div>
-				<div className='box_price'>
-					<span></span>
-				</div>
-			</div>
+			<Product_info
+				info = {{
+					caption: "WHEY PROTEIN",
+					title: "15 Optimum Nutrition Boost BCAA",
+					price: 56.30
+				}}
+			/>
           </div>
 		  <div className='box_item'>
             <Product_image
 				product = {{link: Muscle, name: "12 NZ Muscle Whey Protein 1Kg Bag-Gingerbread Milk"}}
 			/>
-			<div className='box_info'>
-				<div className='box_caption'>
-
-				</div>
-				<div className='box_title'>
-
-				</div>
-				<div className='box_price'>
-					<span></span>
-				</div>
-			</div>
+			<Product_info
+				info = {{
+					caption: "WHEY PROTEIN",
+					title: "12 NZ Muscle Whey Protein 1Kg Bag-Gingerbread Milk",
+					price: 29.99
+				}}
+			/>
           </div>
 		  <div className='box_item'>
             <Product_image
 				product = {{link: nutrition, name: "12 NZ Muscle Whey Protein 1Kg Bag-Gingerbread Milk"}}
 			/>
-			<div className='box_info'>
-				<div className='box_caption'>
-
-				</div>
-				<div className='box_title'>
-
-				</div>
-				<div className='box_price'>
-					<span></span>
-				</div>
-			</div>
+			<Product_info
+				info = {{
+					caption: "MASS GAINER",
+					title: "1 100% Hydrolyzed Whey Protein",
+					price: 59.99
+				}}
+			/>
           </div>
         </div>
       </section>
